@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: rubiera_production
-  username: rubiera
-  password: <%= ENV["RUBIERA_DATABASE_PASSWORD"] %>
+  database: dapjblnsv0cugp
+  username: gxghldgqiuoycn
+  password: a884e557be12f7fad58594bd2606ef20d5c2658c84dbf38b995b8f7bb808068d
+  url: ec2-34-201-95-176.compute-1.amazonaws.com
