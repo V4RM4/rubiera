@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Bloggies</h1>
+
+<div id="bloggies">
+  <% @bloggies.each do |bloggy| %>
+    <%= render bloggy %>
+    <p>
+      <%= link_to "Show this bloggy", bloggy %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New bloggy", new_bloggy_path %>

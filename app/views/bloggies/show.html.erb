@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @bloggy %>
+
+<div>
+  <%= link_to "Edit this bloggy", edit_bloggy_path(@bloggy) %> |
+  <%= link_to "Back to bloggies", bloggies_path %>
+
+  <%= button_to "Destroy this bloggy", @bloggy, method: :delete %>
+</div>

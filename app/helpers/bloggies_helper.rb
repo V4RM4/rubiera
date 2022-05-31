@@ -1,0 +1,2 @@
+module BloggiesHelper
+end

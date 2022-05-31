@@ -1,0 +1,2 @@
+class Bloggy < ApplicationRecord
+end
