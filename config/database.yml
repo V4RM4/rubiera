@@ -81,4 +81,6 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV["postgres://ywydmabhtehsxh:de5e47251d934d510837c1ba6f040eb2221700abb3b80eebfc16fc382d7a6f0f@ec2-35-168-194-15.compute-1.amazonaws.com:5432/db0441c9p99hh6"] %>
+  database: rubiera_production
+  username: rubiera
+  password: <%= ENV["RUBIERA_DATABASE_PASSWORD"] %>
