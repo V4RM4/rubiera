@@ -81,7 +81,8 @@ test:
 #
 production:
   <<: *default
-  database: dapjblnsv0cugp
-  username: gxghldgqiuoycn
-  password: a884e557be12f7fad58594bd2606ef20d5c2658c84dbf38b995b8f7bb808068d
+  host: ec2-35-168-194-15.compute-1.amazonaws.com
+  database: db0441c9p99hh6
+  username: ywydmabhtehsxh
+  password: de5e47251d934d510837c1ba6f040eb2221700abb3b80eebfc16fc382d7a6f0f
   url: ec2-34-201-95-176.compute-1.amazonaws.com
