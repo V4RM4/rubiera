@@ -73,15 +73,15 @@ test:
 # the values provided in this file. Alternatively, you can specify a connection
 # URL environment variable explicitly:
 #
-  production:
-    url: <%= ENV["DATABASE_URL"] %>
-    database: rubiera_production
+  # production:
+  #   url: <%= ENV["DATABASE_URL"] %>
+  #   database: rubiera_production
 #
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-# production:
-#   <<: *default
-#   database: rubiera_production
-#   username: rubiera
-#   password: <%= ENV["RUBIERA_DATABASE_PASSWORD"] %>
+production:
+  <<: *default
+  database: rubiera_production
+  username: rubiera
+  password: <%= ENV["RUBIERA_DATABASE_PASSWORD"] %>
