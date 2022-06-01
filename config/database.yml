@@ -82,6 +82,6 @@ test:
 #
 production:
   <<: *default
-  database: rubiera_production
+  database: postgres
   username: rubiera
   password: <%= ENV["RUBIERA_DATABASE_PASSWORD"] %>
